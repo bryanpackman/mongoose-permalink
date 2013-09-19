@@ -21,12 +21,17 @@ In the following example, the permalink plugin will add a String field named "pe
 
 ### Configuration
 
-#### modelName = options.modelName
+#### modelName (required)
+Name of model this schema applies to. This is needed to call <modelName>.find when checking if the generated permalink already exists in our collection. If it exists, a number will be appended to keep the peramlink value unique.
 
-#### connection = options.connection or mongoose
+#### connection 
+Database connection. Defaults to `mongoose`
 
-#### target = options.target or 'permalink'         # Slug destination
+#### target 
+Name of field where permalink value is stored. Defaults to "permalink".
 
-#### source = options.source or 'name'         # Slug content field
+#### source
+Name of field where permalink value is generated from. Defaults to "name".
 
-#### maxLength = options.maxLength or 50
+#### maxLength
+Maximum length of permalink value in bytes. Defaults to 50
