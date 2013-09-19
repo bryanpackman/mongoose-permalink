@@ -2,7 +2,7 @@
   "name": "Mongoose-Permalink"
 , "description": "A Mongoose plugin for generating and validating permalinks."
 , "version": "1.0.0"
-, "homepage": "https://github.com/theaccessnetwork/api-v4"
+, "homepage": "https://github.com/bryanpackman/mongoose-permalink"
 , "author": "Bryan Packman"
 , "dependencies" :
   { "async"       :  "0.2.9"
@@ -10,6 +10,6 @@
   }
 , "repository":
   { "type": "git"
-  , "url": "http://github.com/theaccessnetwork/video-importer"
+  , "url": "http://github.com/bryanpackman/mongoose-permalink"
   }
 }
